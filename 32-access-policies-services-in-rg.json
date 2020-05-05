@@ -1,0 +1,43 @@
+{
+	"access-policies":[{
+            "access-group-name": "APPDEV-USERS",
+            "access-policy": {
+                "service": "cloudantnosqldb",
+                "resource-group-name": "default",
+                "access": ["Editor","Manager"]
+            }
+        },
+        {
+            "access-group-name": "APPDEV-USERS",
+            "access-policy": {
+                "service": "cloud-object-storage",
+                "resource-group-name": "default",
+                "access": ["Viewer", "Operator", "Editor", "Reader", "Writer", "Manager"]
+            }  
+        },
+        {
+            "access-group-name": "APPDEV-USERS",
+            "access-policy": {
+                "service": "sysdig-monitor",
+                "resource-group-name": "default",
+                "access": [ "Writer", "Reader", "Viewer", "Operator"]
+            }  
+        },
+        {
+            "access-group-name": "APPDEV-USERS",
+            "access-policy": {
+                "service": "logdna",
+                "resource-group-name": "default",
+                "access": ["Standard Member", "Manager", "Reader", "Editor", "Operator", "Viewer"]
+            }  
+        },
+        {
+            "access-group-name": "APPDEV-USERS",
+            "access-policy": {
+                "service": "appid",
+                "resource-group-name": "default",
+                "access": ["Viewer", "Operator", "Editor", "Reader", "Writer", "Manager"]
+            }  
+        }
+    ]
+}

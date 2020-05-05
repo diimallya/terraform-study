@@ -1,0 +1,45 @@
+{
+    "users": [{
+            "access-group-name": "CLOUDMANAGEMENT-ADMINS",
+            "user": [
+                "dimallya@in.ibm.com"
+            ]
+        },
+        {
+            "access-group-name": "APPDEV-ENVIRONMENT-ADMINS",
+            "user": [
+                "dimallya@in.ibm.com"
+            ]
+        },
+        {
+            "access-group-name": "APPDEV-ADMINS",
+            "user": [
+              "dimallya@in.ibm.com"
+            ]
+        },
+        {
+            "access-group-name": "INTEGRATION-ADMINS",
+            "user": [
+                "dimallya@in.ibm.com"
+            ]
+        },
+        {
+            "access-group-name": "DATA-ADMINS",
+            "user": [
+                "dimallya@in.ibm.com"
+            ]
+        },
+        {
+            "access-group-name": "BUSINESS-AUTOMATION-ADMINS",
+            "user": [
+              "dimallya@in.ibm.com"
+            ]
+        },
+        {
+            "access-group-name": "APPDEV-USERS",
+            "user": [
+                "dimallya@in.ibm.com"
+            ]
+        }
+    ]
+}

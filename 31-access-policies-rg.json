@@ -1,0 +1,98 @@
+{
+    "access-policies": [{
+            "access-group-name": "CLOUDMANAGEMENT-ADMINS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Administrator", "Manager"],
+                "attributes": {}
+            }
+        },
+        {
+            "access-group-name": "CLOUDMANAGEMENT-ADMINS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Viewer"],
+                "attributes": {
+                    "resourceType": "resource-group",
+                    "resource": "cloud-management"
+                }
+            }
+        },
+        {
+            "access-group-name": "APPDEV-ENVIRONMENT-ADMINS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Administrator", "Manager"],
+                "attributes": {}
+            }
+        },
+        {
+            "access-group-name": "APPDEV-ENVIRONMENT-ADMINS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Viewer"],
+                "attributes": {
+                    "resourceType": "resource-group",
+                    "resource": "appdev-cloudnative"
+                }
+            }
+        },
+        {
+            "access-group-name": "DATA-ADMINS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Administrator", "Manager"],
+                "attributes": {}
+            }
+        },
+        {
+            "access-group-name": "DATA-ADMINS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Viewer"],
+                "attributes": {
+                    "resourceType": "resource-group",
+                    "resource": "business-data"
+                }
+            }
+        },
+        {
+            "access-group-name": "BUSINESS-AUTOMATION-ADMINS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Administrator", "Manager"],
+                "attributes": {}
+            }
+        },
+        {
+            "access-group-name": "BUSINESS-AUTOMATION-ADMINS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Viewer"],
+                "attributes": {
+                    "resourceType": "resource-group",
+                    "resource": "business-automation"
+                }
+            }
+        },
+        {
+            "access-group-name": "APPDEV-USERS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Viewer", "Operator", "Reader"],
+                "attributes": {}
+            }
+        },
+        {
+            "access-group-name": "APPDEV-USERS",
+            "access-policy": {
+                "resource-group-name": "default",
+                "access": ["Viewer"],
+                "attributes": {
+                    "resourceType": "resource-group",
+                    "resource": "appdev-cloudnative"
+                }
+            }
+        }
+    ]
+}

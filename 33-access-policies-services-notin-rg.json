@@ -1,0 +1,83 @@
+ {
+    "access-policies": [{
+            "access-group-name": "APPDEV-ENVIRONMENT-ADMINS",
+            "access-policy": {
+                "service": "containers-kubernetes",
+                "access": ["Administrator", "Manager"],
+                "region": ""
+            }
+        },
+        {
+            "access-group-name": "APPDEV-ENVIRONMENT-ADMINS",
+            "access-policy": {
+                "service": "container-registry",
+                "access": ["Administrator", "Manager"],
+                "region": ""
+            }
+        },
+        {
+            "access-group-name": "CLOUDMANAGEMENT-ADMINS",
+            "access-policy": {
+                "service": "containers-kubernetes",
+                "access": ["Administrator", "Manager"],
+                "region": ""
+            }
+        },
+        {
+            "access-group-name": "CLOUDMANAGEMENT-ADMINS",
+            "access-policy": {
+                "service": "container-registry",
+                "access": ["Administrator", "Manager"],
+                "region": ""
+            }
+        },
+        {
+            "access-group-name": "DATA-ADMINS",
+            "access-policy": {
+                "service": "containers-kubernetes",
+                "access": ["Administrator", "Manager"],
+                "region": ""
+            }
+        },
+        {
+            "access-group-name": "DATA-ADMINS",
+            "access-policy": {
+                "service": "container-registry",
+                "access": ["Administrator", "Manager"],
+                "region": ""
+            }
+        },
+        {
+            "access-group-name": "BUSINESS-AUTOMATION-ADMINS",
+            "access-policy": {
+                "service": "containers-kubernetes",
+                "access": ["Administrator", "Manager"],
+                "region": ""
+            }
+        },
+        {
+            "access-group-name": "BUSINESS-AUTOMATION-ADMINS",
+            "access-policy": {
+                "service": "container-registry",
+                "access": ["Administrator", "Manager"],
+                "region": ""
+            }
+        },
+        {
+            "access-group-name": "APPDEV-USERS",
+            "access-policy": {
+                "service": "containers-kubernetes",
+                "access": ["Viewer", "Operator", "Editor", "Reader", "Writer", "Manager"],
+                "region": ""
+            }
+        },
+        {
+            "access-group-name": "APPDEV-USERS",
+            "access-policy": {
+                "service": "container-registry",
+                "access": ["Viewer", "Operator", "Reader"],
+                "region": "Dallas"
+            }
+        }
+    ]
+}
